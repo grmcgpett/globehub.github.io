@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India - Land of Diversity</title>
+    <style>
+        /* Indian flag colors gradient background */
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            /* Saffron, White, Green (Indian flag) with a subtle Ashoka Chakra motif image overlay */
+            background: linear-gradient(135deg, #FF9933 0%, #FFFFFF 50%, #138808 100%);
+            position: relative;
+        }
+        .chakra {
+            position: absolute;
+            left: 50%;
+            top: 20%;
+            transform: translate(-50%, -50%);
+            opacity: 0.08;
+            z-index: 0;
+            width: 60vw;
+            max-width: 700px;
+            pointer-events: none;
+        }
+        .container {
+            position: relative;
+            z-index: 1;
+            padding: 3rem 2rem;
+            max-width: 700px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.85);
+            border-radius: 24px;
+            box-shadow: 0 8px 32px rgba(20,50,30,0.18);
+            margin-top: 6vw;
+        }
+        h1 {
+            text-align: center;
+            color: #1A237E;
+            font-size: 2.5rem;
+        }
+        h2 {
+            color: #FF9933;
+            margin-top: 2rem;
+        }
+        p {
+            color: #222;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+        ul {
+            margin-left: 1.5rem;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 1rem;
+                margin-top: 10vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Ashoka Chakra SVG as background motif -->
+    <svg class="chakra" viewBox="0 0 200 200">
+        <circle cx="100" cy="100" r="80" stroke="#1A237E" stroke-width="10" fill="none"/>
+        <g stroke="#1A237E" stroke-width="3">
+            <!-- 24 spokes -->
+            <g>
+                <line x1="100" y1="20" x2="100" y2="180"/>
+                <line x1="20" y1="100" x2="180" y2="100"/>
+                <line x1="38.2" y1="38.2" x2="161.8" y2="161.8"/>
+                <line x1="161.8" y1="38.2" x2="38.2" y2="161.8"/>
+                <line x1="55" y1="27.6" x2="145" y2="172.4"/>
+                <line x1="145" y1="27.6" x2="55" y2="172.4"/>
+                <line x1="27.6" y1="55" x2="172.4" y2="145"/>
+                <line x1="172.4" y1="55" x2="27.6" y2="145"/>
+                <!-- More spokes, 24 total -->
+                <g>
+                    <!-- Rotating lines for all spokes -->
+                    <g>
+                        <line x1="100" y1="20" x2="100" y2="180" transform="rotate(15 100 100)"/>
+                        <line x1="100" y1="20" x2="100" y2="180" transform="rotate(30 100 100)"/>
+                        <line x1="100" y1="20" x2="100" y2="180" transform="rotate(45 100 100)"/>
+                        <line x1="100" y1="20" x2="100" y2="180" transform="rotate(60 100 100)"/>
+                        <line x1="100" y1="20" x2="100" y2="180" transform="rotate(75 100 100)"/>
+                        <line x1="100" y1="20" x2="100" y2="180" transform="rotate(90 100 100)"/>
+                        <line x1="100" y1="20" x2="100" y2="180" transform="rotate(105 100 100)"/>
+                        <line x1="100" y1="20" x2="100" y2="180" transform="rotate(120 100 100)"/>
+                        <line x1="100" y1="20" x2="100" y2="180" transform="rotate(135 100 100)"/>
+                        <line x1="100" y1="20" x2="100" y2="180" transform="rotate(150 100 100)"/>
+                        <line x1="100" y1="20" x2="100" y2="180" transform="rotate(165 100 100)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <circle cx="100" cy="100" r="15" fill="#1A237E"/>
+    </svg>
+    <div class="container">
+        <h1>India: Land of Diversity</h1>
+        <p>
+            India, officially known as the Republic of India, is a country in South Asia. 
+            It is the seventh-largest country by land area, the most populous country, and the world's largest democracy.
+            Renowned for its vibrant culture, colorful festivals, and rich history, India is a tapestry of languages, cuisines, and traditions.
+        </p>
+        <h2>Key Highlights</h2>
+        <ul>
+            <li><strong>Capital:</strong> New Delhi</li>
+            <li><strong>Population:</strong> Over 1.4 billion (2025 est.)</li>
+            <li><strong>Official Languages:</strong> Hindi and English (India recognizes 22 official languages)</li>
+            <li><strong>Currency:</strong> Indian Rupee (₹)</li>
+            <li><strong>Famous Landmarks:</strong> Taj Mahal, Qutub Minar, Red Fort, Gateway of India</li>
+            <li><strong>National Symbols:</strong> Peacock (bird), Bengal Tiger (animal), Lotus (flower)</li>
+        </ul>
+        <h2>Cultural Richness</h2>
+        <p>
+            From the snowy peaks of the Himalayas to the sun-soaked beaches of Kerala, India’s geography is as diverse as its people. Its festivals such as Diwali, Holi, Eid, and Christmas are celebrated with great enthusiasm. Indian cuisine is famous worldwide, with dishes like biryani, dosa, butter chicken, and samosas tantalizing taste buds everywhere.
+        </p>
+        <h2>Did You Know?</h2>
+        <ul>
+            <li>India is the birthplace of four major world religions: Hinduism, Buddhism, Jainism, and Sikhism.</li>
+            <li>The game of chess originated in India.</li>
+            <li>The Indian film industry, known as Bollywood, is the world’s largest producer of films.</li>
+        </ul>
+        <p style="text-align:center; margin-top:2rem;">
+            <em>“Unity in Diversity” truly defines the spirit of India!</em>
+        </p>
+    </div>
+</body>
+</html>
